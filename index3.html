@@ -258,31 +258,8 @@
             cursor: pointer;
         }
 
-        @media (max-width: 350px) {
-            .card {
-                width: 250px;
-                height: 350px;
-            }
-
-            h1 {
-                font-size: 2rem;
-            }
-
-            .birthday-girl {
-                width: 120px;
-                height: 120px;
-            }
-
-            p {
-                font-size: 0.9rem;
-            }
-
-            .signature {
-                font-size: 1.3rem;
-            }
-        }
-              /* Media Query for Mobile and Tablet */
-              @media (max-width: 768px) {
+       /* Media Query for Mobile and Tablet */
+       @media (max-width: 768px) {
             .card {
                 width: 80%;
                 height: 550px;
@@ -304,30 +281,46 @@
             .signature {
                 font-size: 1.8rem;
             }
+
+            .open-button {
+                width: 50px;
+                height: 50px;
+                font-size: 1.3rem;
+                bottom: 15px;
+                right: 15px;
+            }
         }
 
         /* Media Query for Small Mobile Devices */
-        @media (max-width: 350px) {
+        @media (max-width: 480px) {
             .card {
                 width: 90%;
                 height: 500px;
             }
 
             h1 {
-                font-size: 2rem;
+                font-size: 1.8rem;
             }
 
             .birthday-girl {
-                width: 150px;
-                height: 150px;
+                width: 120px;
+                height: 120px;
             }
 
             p {
-                font-size: 0.9rem;
+                font-size: 1rem;
             }
 
             .signature {
-                font-size: 1.5rem;
+                font-size: 1.3rem;
+            }
+
+            .open-button {
+                width: 40px;
+                height: 40px;
+                font-size: 1.2rem;
+                bottom: 10px;
+                right: 10px;
             }
         }
     </style>
@@ -337,7 +330,7 @@
         <div class="card-inner">
             <div class="card-front">
                 <h1>Happy Birthday, Renuka!</h1>
-                <img src="./avtar.jpg" alt="Renuka from HR" class="birthday-girl">
+                <img src="./assets/avtar.jpg" alt="Renuka from HR" class="birthday-girl">
             </div>
             <div class="card-back">
                 <p>Dear Renuka,</p>
